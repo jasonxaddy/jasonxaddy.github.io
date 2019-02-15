@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang='en-us'>
+<head>
+    <meta charset='UTF-8'>
+    <title>Landing Page</title>
+    <link rel='stylesheet' type='text/css' href='stylesheets.css'>
+</head>
+
+<body>
+
+
+
+
+    <div class="navbar">
+        <a href='index.html'><strong>Latitude</strong></a>
+        <div class="dropdown">
+            <button class="dropbtn">Visualizations 
+            <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+            <a href="viz1.html">Max Temperature</a>
+            <a href="viz2.html">Humidity</a>
+            <a href="viz3.html">Cloudiness</a>
+            <a href="viz4.html">Wind Speed</a>
+            </div>
+        </div>
+        <button class='comparison'>
+            <a href='comparisons.html'>Comparisons</a>
+        </button>
+ 
+    </div>
+
+    <div class="container">
+        <h2>Summary: Latitude vs. X</h2>
+        <img src='Resources/assets/images/Fig1.png' >
+        <p>Welcome to this page. If you are reading this, then so far, so good. This website is meant to display visualizations of cities' weather data related to their respective latitudes. </p>
+        <p>Using data from the OpenWeatherMap module, I plotted cities' latitude against some other weather-related measures to try to discern any trends or patterns regarding temperature, humidity, wind speed and cloudiness.</p>
+        <p>As you can see in the image to the left, the temperature for cities nearer to the Equator is much higher than those closer to the poles. Though that seems very obvious, the graph to the left serves as a good reality check to make sure the data is being gathered and analyzed the way one would expect.</p>
+        <p>Click on the images below to see several visualizations that I produced for the previous project in my Data Science Boot Camp.</p>
+    </div>
+
+    <br>
+
+    <div class='row'>Visualizations<br>
+        <div class='column'>
+            <a href='viz1.html'><img src='Resources/assets/images/Fig1.png' width='150' height='150'>
+        </a></div>
+        <div class='column'>
+            <a href='viz2.html'><img src='Resources/assets/images/Fig2.png' width='150' height='150'>
+        </a></div>
+        <div class='column'>
+            <a href='viz3.html'><img src='Resources/assets/images/Fig3.png' width='150' height='150'>
+        </a></div>
+        <div class='column'>        
+            <a href='viz4.html'><img src='Resources/assets/images/Fig4.png' width='150' height='150'>
+        </a></div>
+    </div>
+
+</body>
+
+
+</html>
